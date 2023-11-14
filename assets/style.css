@@ -20,3 +20,49 @@ html {
     height: 100%;
     z-index: -1;
   }
+
+  #cocktail {
+    max-width: 350px;
+    text-align: center;
+    padding: 30px 30px 12px 30px;
+    color: #fff;
+    background-color: turquoise;
+    border: 4px solid turquoise;
+    border-radius: 5px;
+  }
+
+#generateButton {
+    margin-top: 20px; 
+    width: 20%;
+    max-width: 100%;
+  }
+
+  #cocktail h1 {
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+  }
+
+  #cocktail img {
+    max-width: 300px;
+    border: 6px solid #fff;
+    border-radius: 150px;
+  }
+
+  #cocktail ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cocktail li {
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  #cocktail li:not(:last-of-type) {
+    border-bottom: 1px solid #fff;
+  }
+
+  .custom-width {
+    width: 100px;
+  }
