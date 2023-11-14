@@ -17,3 +17,9 @@ document.getElementById("generateButton").addEventListener("click", function () 
         console.error("FETCH ERROR:", error);
       });
   });
+
+  //I wrote this block of code to display the data on the page 
+  function displayCocktail(data) {
+    const cocktail = data.drinks[0];
+    const cocktailDiv = document.getElementById("cocktail");
+  
