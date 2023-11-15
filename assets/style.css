@@ -32,9 +32,19 @@ html {
   }
 
 #generateButton {
-    margin-top: 20px; 
-    width: 20%;
-    max-width: 100%;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    margin-top: 0; 
+    width: auto; 
+    max-width: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    }
+
   }
 
   #cocktail h1 {
@@ -44,7 +54,7 @@ html {
 
   #cocktail img {
     max-width: 300px;
-    border: 6px solid #fff;
+    border: 6px solid #fff; 
     border-radius: 150px;
   }
 
